@@ -43,28 +43,23 @@ tiny841.build.core=arduino:arduino
 tiny841.build.variant=tiny14
 tiny841.build.board=AVR_ATTINY841
 
-tiny841v7.name=DDB V7
-# use Standard Arduino Core
-tiny841v7.menu.core.arduino=Standard Arduino
-tiny841v7.menu.core.arduino.build.core=arduino:arduino
-tiny841v7.menu.core.arduino.build.variant=tiny14
-tiny841v7.menu.core.arduino.build.board=AVR_ATTINY841
-# use ATTinyCore from Spence Konde: https://github.com/SpenceKonde/ATTinyCore
-tiny841v7.menu.core.tinycore=ATTinyCore (by Spence Konde)
-tiny841v7.menu.core.tinycore.build.core=ATTinyCore:tinymodern
-tiny841v7.menu.core.tinycore.build.variant=tiny14
-tiny841v7.menu.core.tinycore.build.board=AVR_ATTINYX41
-# info menu item
-tiny841v7.bootloader.tool=arduino:avrdude
-tiny841v7.bootloader.unlock_bits=0xff
-tiny841v7.bootloader.lock_bits=0xff
-tiny841v7.bootloader.file=empty_all
-tiny841v7.upload.tool=avrdude
-tiny841v7.upload.protocol=arduino
-tiny841v7.upload.wait_for_upload_port=true
-tiny841v7.upload.use_1200bps_touch=false
-tiny841v7.upload.disable_flushing=false
-tiny841v7.upload.maximum_size=6500
-tiny841v7.upload.maximum_data_size=512
-tiny841v7.build.mcu=attiny841
-tiny841v7.build.f_cpu=8000000L
+ATtinyX4.name=DDB V7
+ATtinyX4.bootloader.tool=arduino:avrdude
+ATtinyX4.bootloader.unlock_bits=0xff
+ATtinyX4.bootloader.lock_bits=0xff
+ATtinyX4.menu.build.core=arduino:arduino
+ATtinyX4.build.board=attiny
+ATtinyX4.upload.tool=arduino:avrdude
+
+ATtinyX4.menu.msg.info=Press Upload When Ready.
+
+ATtinyX4.cpu.attiny84=ATtiny84
+ATtinyX4.cpu.attiny84.upload.maximum_size=8192
+ATtinyX4.cpu.attiny84.upload.maximum_data_size=512
+ATtinyX4.cpu.attiny84.build.mcu=attiny84
+
+ATtinyX4.clock.internal8=Internal 8 MHz
+ATtinyX4.clock.internal8.bootloader.low_fuses=0xe2
+ATtinyX4.clock.internal8.bootloader.high_fuses=0xdf
+ATtinyX4.clock.internal8.bootloader.extended_fuses=0xff
+ATtinyX4.clock.internal8.build.f_cpu=8000000L
