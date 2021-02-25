@@ -18,7 +18,9 @@
           "archiveFileName": "watterott-avr-1.0.1.zip",
           "size": "1455314",
           "boards": [
-            {"name": "DDB V8"}
+            {"name": "DDB V8"},
+{"name": "DDB V7"}
+
           ],
           "toolsDependencies": [
             {
