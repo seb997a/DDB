@@ -43,7 +43,6 @@ tiny841.build.core=arduino:arduino
 tiny841.build.variant=tiny14
 tiny841.build.board=AVR_ATTINY841
 
-
 tiny841.name=DDB V7
 # use Standard Arduino Core
 tiny841.menu.core.arduino=Standard Arduino
@@ -56,10 +55,8 @@ tiny841.menu.core.tinycore.build.core=ATTinyCore:tinymodern
 tiny841.menu.core.tinycore.build.variant=tiny14
 tiny841.menu.core.tinycore.build.board=AVR_ATTINYX41
 # info menu item
-tiny841.menu.msg.info=Press Reset when Uploading is shown.
 tiny841.bootloader.tool=arduino:avrdude
 tiny841.bootloader.unlock_bits=0xff
 tiny841.bootloader.lock_bits=0xff
 tiny841.bootloader.file=empty_all
 tiny841.upload.tool=avrdude
-tiny841.upload.protocol=usb
