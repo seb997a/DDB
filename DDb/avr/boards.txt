@@ -43,7 +43,7 @@ tiny841.build.core=arduino:arduino
 tiny841.build.variant=tiny14
 tiny841.build.board=AVR_ATTINY841
 
-# ATtiny841 @ internal 8MHz
+
 tiny841.name=DDB V7
 # use Standard Arduino Core
 tiny841.menu.core.arduino=Standard Arduino
