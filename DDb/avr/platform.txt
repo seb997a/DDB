@@ -1,9 +1,9 @@
 
-# Watterott AVR Core and Platform
+# DDB Core and Platform
 # -------------------------------
 
 name=DDB
-version=1.0.0
+version=1.0.1
 
 # AVR compile variables
 # ---------------------

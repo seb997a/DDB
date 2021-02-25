@@ -163,5 +163,3 @@ attinyx4.menu.neopixelport.portb=Port B (CW:8~11,CCW:0~2,11)
 attinyx4.menu.neopixelport.porta.build.neopixelport=-DNEOPIXELPORT=PORTA
 attinyx4.menu.neopixelport.portb.build.neopixelport=-DNEOPIXELPORT=PORTB
 attinyx4.build.extra_flags={build.millis} {build.neopixelport}
-
-
