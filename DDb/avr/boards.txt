@@ -42,24 +42,3 @@ tiny841.build.f_cpu=8000000L
 tiny841.build.core=arduino:arduino
 tiny841.build.variant=tiny14
 tiny841.build.board=AVR_ATTINY841
-
-ATtinyX4.name=DDB V7
-ATtinyX4.bootloader.tool=arduino:avrdude
-ATtinyX4.bootloader.unlock_bits=0xff
-ATtinyX4.bootloader.lock_bits=0xff
-ATtinyX4.menu.build.core=arduino:arduino
-ATtinyX4.build.board=attiny
-ATtinyX4.upload.tool=arduino:avrdude
-
-ATtinyX4.menu.msg.info=Press Upload When Ready.
-
-ATtinyX4.cpu.attiny84=ATtiny84
-ATtinyX4.cpu.attiny84.upload.maximum_size=8192
-ATtinyX4.cpu.attiny84.upload.maximum_data_size=512
-ATtinyX4.cpu.attiny84.build.mcu=attiny84
-
-ATtinyX4.clock.internal8=Internal 8 MHz
-ATtinyX4.clock.internal8.bootloader.low_fuses=0xe2
-ATtinyX4.clock.internal8.bootloader.high_fuses=0xdf
-ATtinyX4.clock.internal8.bootloader.extended_fuses=0xff
-ATtinyX4.clock.internal8.build.f_cpu=8000000L
