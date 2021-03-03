@@ -11,8 +11,8 @@ tiny841.name=DDB V8
 # use Standard Arduino Core
 tiny841.menu.core.arduino=Standard Arduino
 tiny841.menu.core.arduino.build.core=arduino:arduino
-tiny841.menu.core.arduino.build.variant=tiny14
-tiny841.menu.core.arduino.build.board=AVR_ATTINY841
+tiny841.menu.core.arduino.build.variant=tinyX4
+tiny841.menu.core.arduino.build.board=AVR_ATTINYX4
 # use ATTinyCore from Spence Konde: https://github.com/SpenceKonde/ATTinyCore
 tiny841.menu.core.tinycore=ATTinyCore (by Spence Konde)
 tiny841.menu.core.tinycore.build.core=ATTinyCore:tinymodern
@@ -48,13 +48,13 @@ tiny84.name=DDB V7
 # use Standard Arduino Core
 tiny84.menu.core.arduino=Standard Arduino
 tiny84.menu.core.arduino.build.core=arduino:arduino
-tiny84.menu.core.arduino.build.variant=tiny14
-tiny84.menu.core.arduino.build.board=AVR_ATTINY841
+tiny84.menu.core.arduino.build.variant=tinyX4
+tiny84.menu.core.arduino.build.board=AVR_ATTINYX4
 # use ATTinyCore from Spence Konde: https://github.com/SpenceKonde/ATTinyCore
 tiny84.menu.core.tinycore=ATTinyCore (by Spence Konde)
 tiny84.menu.core.tinycore.build.core=ATTinyCore:tinymodern
-tiny84.menu.core.tinycore.build.variant=tiny14
-tiny84.menu.core.tinycore.build.board=AVR_ATTINYX41
+tiny84.menu.core.tinycore.build.variant=tinyX4
+tiny84.menu.core.tinycore.build.board=AVR_ATTINYX4
 # info menu item
 tiny84.menu.msg.info=Upload Using ISP.
 tiny84.vid.0=0x16D0
@@ -70,5 +70,5 @@ tiny84.build.mcu=attiny841
 tiny84.build.f_cpu=8000000L
 # default core may be overridden by menu
 tiny84.build.core=arduino:arduino
-tiny84.build.variant=tiny14
-tiny84.build.board=AVR_ATTINY841
+tiny84.build.variant=tinyX4
+tiny84.build.board=AVR_ATTINYX4
