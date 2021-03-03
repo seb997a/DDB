@@ -56,7 +56,7 @@ tiny84.menu.core.tinycore.build.core=ATTinyCore:tinymodern
 tiny84.menu.core.tinycore.build.variant=tiny14
 tiny84.menu.core.tinycore.build.board=AVR_ATTINYX41
 # info menu item
-tiny84.menu.msg.info=Press Reset when Uploading is shown.
+tiny84.menu.msg.info=Upload Using ISP.
 tiny84.vid.0=0x16D0
 tiny84.pid.0=0x0753
 tiny84.bootloader.tool=avrdude
