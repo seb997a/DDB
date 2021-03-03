@@ -3,9 +3,9 @@
     {
       "name": "DDB",
       "maintainer": "ACES",
-      "websiteURL": "https://www.cdarcy.on.ca",
+      "websiteURL": "https://www.darcy.rsgc.on.ca",
       "email": "",
-      "help": {"online": "https://learn.watterott.com/arduino/watterott-boards/"},
+      "help": {"online": "https://www.darcy.rsgc.on.ca"},
 
       "platforms": [
               {
