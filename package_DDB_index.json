@@ -3,9 +3,9 @@
     {
       "name": "DDB",
       "maintainer": "ACES",
-      "websiteURL": "darcy.rsgc.on.ca/",
+      "websiteURL": "https://www.sparkfun.com/products/11232#:~:text=The%20ATtiny84%20is%20another%20of,Datasheet",
       "email": "",
-      "help": {"online": "darcy.rsgc.on.ca/"},
+      "help": {"online": "https://www.sparkfun.com/products/11232#:~:text=The%20ATtiny84%20is%20another%20of,Datasheet"},
 
       "platforms": [
               {
@@ -13,7 +13,7 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "contributed",
-          "help": {"online": "http://darcy.rsgc.on.ca/"},
+          "help": {"online": "https://learn.sparkfun.com/tutorials/how-to-install-an-attiny-bootloader-with-virtual-usb/all"},
           "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
           "size": "1440806",
           "boards": [
