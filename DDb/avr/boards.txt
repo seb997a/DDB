@@ -60,11 +60,11 @@ tiny84.menu.core.tinycore.build.board=AVR_ATTINYX4
 # info menu item
 tiny84.menu.msg.info=Upload Using ISP.
 tiny84.bootloader.tool=avrdude
-tiny84.bootloader.low_fuses=0x62
-tiny84.bootloader.high_fuses=0xDF
-tiny84.bootloader.extended_fuses=0xFF
 tiny84.bootloader.unlock_bits=0xFF
 tiny84.bootloader.lock_bits=0xFF
+tiny84.bootloader.low_fuses=0xe2
+tiny84.bootloader.high_fuses=0xDF
+tiny84.bootloader.extended_fuses=0xff
 tiny84.bootloader.file=empty_all.hex
 tiny84.burnmode.install=Fresh Install (via ISP)
 tiny84.burnmode.install.bootloader.tool=avrdude
