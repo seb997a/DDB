@@ -3,7 +3,7 @@
     {
       "name": "DDB",
       "maintainer": "ACES",
-      "websiteURL": "https://www.darcy.rsgc.on.ca/",
+      "websiteURL": "http://darcy.rsgc.on.ca/",
       "email": "",
       "help": {"online": "http://darcy.rsgc.on.ca/"},
 
@@ -13,7 +13,7 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "contributed",
-          "help": {"online": "https://darcy.rsgc.on.ca/"},
+          "help": {"online": "http://darcy.rsgc.on.ca/"},
           "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
           "size": "1440806",
           "boards": [
