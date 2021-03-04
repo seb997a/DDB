@@ -11,7 +11,7 @@
               {
           "name": "DDB",
           "architecture": "avr",
-          "version": "1.0.1",
+          "version": "1.0.0",
           "category": "contributed",
           "help": {"online": "https://learn.sparkfun.com/tutorials/how-to-install-an-attiny-bootloader-with-virtual-usb/all"},
           "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
