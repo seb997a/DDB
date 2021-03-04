@@ -16,7 +16,7 @@
           "help": {"online": "https://learn.watterott.com/arduino/watterott-boards/"},
           "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
           "archiveFileName": "watterott-avr-1.0.1.zip",
-          "size": "1424815",
+          "size": "1440792",
           "boards": [
             {"name": "DDB V8"},
 	    {"name": "DDB V7"}
