@@ -3,9 +3,9 @@
     {
       "name": "DDB",
       "maintainer": "ACES",
-      "websiteURL": "https://www.sparkfun.com/products/11232#:~:text=The%20ATtiny84%20is%20another%20of,Datasheet",
+      "websiteURL": "https://www.darcy.rsgc.on.ca/",
       "email": "",
-      "help": {"online": "https://www.sparkfun.com/products/11232#:~:text=The%20ATtiny84%20is%20another%20of,Datasheet"},
+      "help": {"online": "http://darcy.rsgc.on.ca/"},
 
       "platforms": [
               {
@@ -13,9 +13,10 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "contributed",
-          "help": {"online": "https://learn.sparkfun.com/tutorials/how-to-install-an-attiny-bootloader-with-virtual-usb/all"},
+          "help": {"online": "https://learn.watterott.com/arduino/watterott-boards/"},
           "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
-          "size": "1440806",
+          "archiveFileName": "watterott-avr-1.0.1.zip",
+          "size": "1440792",
           "boards": [
             {"name": "DDB V8"},
 	    {"name": "DDB V7"}
