@@ -19,7 +19,7 @@ tiny841.menu.core.tinycore.build.core=ATTinyCore:tinymodern
 tiny841.menu.core.tinycore.build.variant=tinyX4
 tiny841.menu.core.tinycore.build.board=AVR_ATTINYX4
 # info menu item
-tiny841.menu.msg.info=Press Reset when Uploading is shown.
+tiny841.menu.mgsg.info=Press Reset when Uploading is shown.
 tiny841.vid.0=0x16D0
 tiny841.pid.0=0x0753
 tiny841.bootloader.tool=avrdude
@@ -29,6 +29,8 @@ tiny841.bootloader.extended_fuses=0xF4
 tiny841.bootloader.unlock_bits=0xFF
 tiny841.bootloader.lock_bits=0xFF
 tiny841.bootloader.file=micronucleus-t84.hex
+tiny841.burnmode.install=Fresh Install (via ISP)
+tiny841.burnmode.install.bootloader.tool=avrdude
 tiny841.upload.tool=micronucleus
 tiny841.upload.protocol=usb
 tiny841.upload.wait_for_upload_port=false
