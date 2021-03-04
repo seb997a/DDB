@@ -38,7 +38,7 @@ tiny841.upload.use_1200bps_touch=false
 tiny841.upload.disable_flushing=false
 tiny841.upload.maximum_size=6500
 tiny841.upload.maximum_data_size=512
-tiny841.build.mcu=attiny841
+tiny841.build.mcu=attiny84
 tiny841.build.f_cpu=8000000L
 # default core may be overridden by menu
 tiny841.build.core=arduino:arduino
@@ -68,7 +68,7 @@ tiny84.bootloader.file=empty_all.hex
 tiny84.upload.tool=avrdude
 tiny84.upload.maximum_size=6500
 tiny84.upload.maximum_data_size=512
-tiny84.build.mcu=attiny841
+tiny84.build.mcu=attiny84
 tiny84.build.f_cpu=8000000L
 # default core may be overridden by menu
 tiny84.build.core=arduino:arduino
