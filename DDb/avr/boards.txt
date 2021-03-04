@@ -59,11 +59,6 @@ tiny84.menu.core.tinycore.build.variant=tinyX4
 tiny84.menu.core.tinycore.build.board=AVR_ATTINYX4
 # info menu item
 tiny84.menu.msg.info=Upload Using ISP.
-tiny84.vid.0=0x16D0
-tiny84.pid.0=0x0753
-tiny84.bootloader.tool=avrdude
-tiny84.vid.0=0x16D0
-tiny84.pid.0=0x0753
 tiny84.bootloader.tool=avrdude
 tiny84.bootloader.low_fuses=0x62
 tiny84.bootloader.high_fuses=0xDF
