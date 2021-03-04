@@ -3,9 +3,9 @@
     {
       "name": "DDB",
       "maintainer": "ACES",
-      "websiteURL": "http://darcy.rsgc.on.ca/",
+      "websiteURL": "darcy.rsgc.on.ca/",
       "email": "",
-      "help": {"online": "http://darcy.rsgc.on.ca/"},
+      "help": {"online": "darcy.rsgc.on.ca/"},
 
       "platforms": [
               {
