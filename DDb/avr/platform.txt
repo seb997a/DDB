@@ -133,7 +133,7 @@ tools.micronucleus.bootloader.params.quiet=
 tools.micronucleus.bootloader.pattern="{path}/{cmd}" --run --timeout 60 "{runtime.platform.path}/bootloaders/{bootloader.file}"
 
 # USB Default Flags
-# Default blank usb manufacturer will be filled in at compile time
+# Default blank usb manufacturer will be filled it at compile time
 # - from numeric vendor ID, set to Unknown otherwise
-build.usb_manufacturer="Unknown"
-build.usb_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid} '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'
+build.usb_manufacturer=
+build.usb_flags=
