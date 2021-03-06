@@ -13,9 +13,9 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "contributed",
-          "help": {"online": "https://learn.watterott.com/arduino/watterott-boards/"},
+          "help": {"online": "http://darcy.rsgc.on.ca/"},
           "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
-          "archiveFileName": "watterott-avr-1.0.1.zip",
+          "archiveFileName": "DDB-avr.zip",
           "size": "1440806",
           "boards": [
             {"name": "DDB V8"},
