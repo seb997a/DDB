@@ -254,7 +254,9 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] =
 
 #endif
 
-
+//Support for SoftwareSerial
+#define RXPIN 9
+#define TXPIN 10
 
 
 //Old code, just here for temporary backup until I decide it is not needed.
