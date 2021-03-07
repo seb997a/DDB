@@ -4,7 +4,7 @@
 # Class
 #######################################
 
-DDBv6SA	KEYWORD1
+DDBv8SA	KEYWORD1
 
 #######################################
 # Constants (KEYWORD2)
