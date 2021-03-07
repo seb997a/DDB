@@ -16,7 +16,7 @@
           "help": {"online": "http://darcy.rsgc.on.ca/"},
           "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
           "archiveFileName": "DDB-avr.zip",
-          "size": "1442706",
+          "size": "1442718",
           "boards": [
             {"name": "DDB V8"},
 	    {"name": "DDB V7"}
