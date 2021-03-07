@@ -11,3 +11,6 @@ DDBv6SA	KEYWORD1
 #######################################
 
 outShift			KEYWORD3
+RXPIN				KEYWORD3
+TXPIN				KEYWORD3
+
