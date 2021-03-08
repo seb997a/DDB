@@ -13,7 +13,7 @@ DDBv8SA	KEYWORD1
 outShift			KEYWORD3
 
 #######################################
-# Datatypes (LITERAL1)
+# Literals (LITERAL1)
 #######################################
 
 RXPIN				LITERAL1
