@@ -7,16 +7,14 @@
 DDBv8SA	KEYWORD1
 
 #######################################
-# Datatypes (KEYWORD1)
-#######################################
-
-RXPIN				KEYWORD1
-TXPIN				KEYWORD1
-
-
-#######################################
-# Constants (KEYWORD2)
+# Methods (KEYWORD2)
 #######################################
 
 outShift			KEYWORD3
 
+#######################################
+# Datatypes (LITERAL1)
+#######################################
+
+RXPIN				LITERAL1
+TXPIN				LITERAL1
