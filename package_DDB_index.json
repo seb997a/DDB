@@ -1,6 +1,6 @@
 {
   "packages": [
-    {
+     {
       "name": "DDB",
       "maintainer": "ACES",
       "websiteURL": "https://www.darcy.rsgc.on.ca/",
@@ -12,6 +12,70 @@
           "name": "DDB",
           "architecture": "avr",
           "version": "1.0.1",
+          "category": "contributed",
+          "help": {"online": "http://darcy.rsgc.on.ca/"},
+          "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
+          "archiveFileName": "DDB-avr.zip",
+          "size": "1443068 ",
+          "boards": [
+            {"name": "DDB V8"},
+	    {"name": "DDB V7"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "DDB",
+              "name": "micronucleus",
+              "version": "2.0a4"
+            }
+          ]
+        }
+      ],
+
+      "tools": [
+        {
+          "name":"micronucleus",
+          "version":"2.0a4",
+          "systems": [
+            {
+                "host":"i686-mingw32",
+                "url":"https://github.com/watterott/Arduino-Boards/raw/master/files/micronucleus-win32.zip",
+                "archiveFileName":"micronucleus-2.0a4-win32.zip",
+                "size":"13187"
+            },
+            {
+                "host":"x86_64-linux-gnu",
+                "url":"https://github.com/watterott/Arduino-Boards/raw/master/files/micronucleus-linux64.tar.gz",
+                "archiveFileName":"micronucleus-2.0a4-linux64.tar.gz",
+                "size":"20183"
+            },
+            {
+                "host":"i686-linux-gnu",
+                "url":"https://github.com/watterott/Arduino-Boards/raw/master/files/micronucleus-linux32.tar.gz",
+                "archiveFileName":"micronucleus-2.0a4-linux32.tar.gz",
+                "size":"19123"
+            },
+            {
+                "host":"x86_64-apple-darwin",
+                "url":"https://github.com/watterott/Arduino-Boards/raw/master/files/micronucleus-osx.tar.gz",
+                "archiveFileName":"micronucleus-2.0a4-osx.tar.gz",
+                "size":"25140"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DDB",
+      "maintainer": "ACES",
+      "websiteURL": "https://www.darcy.rsgc.on.ca/",
+      "email": "",
+      "help": {"online": "http://darcy.rsgc.on.ca/"},
+
+      "platforms": [
+              {
+          "name": "DDB",
+          "architecture": "avr",
+          "version": "1.0.2",
           "category": "contributed",
           "help": {"online": "http://darcy.rsgc.on.ca/"},
           "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
