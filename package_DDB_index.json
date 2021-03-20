@@ -222,7 +222,7 @@
           "help": {"online": "http://darcy.rsgc.on.ca/"},
           "url": "https://github.com/seb997a/DDB/raw/main/files/DDB-avr.zip",
           "archiveFileName": "DDB-avr.zip",
-          "size": 1445888",
+          "size": "1445888",
           "boards": [
             {"name": "DDB V8"},
 	    {"name": "DDB V7"}
