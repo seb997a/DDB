@@ -2,16 +2,22 @@
 # http://www.linux-usb.org/usb.ids
 
 menu.speed=Speed
+menu.core=Core
 menu.baud=Upload Speed
 menu.msg=Info
 
 # ATtiny84 @ internal 8MHz(Micronucleus)
 DDBV8.name=DDB V8
 # use Standard Arduino Core
-DDBV8.core.arduino=Standard Arduino
-DDBV8.core.arduino.build.core=arduino:arduino
-DDBV8.core.arduino.build.variant=tinyX4
-DDBV8.core.arduino.build.board=AVR_ATTINYX4
+DDBV8.menu.core.arduino=Standard Arduino
+DDBV8.menu.core.arduino.build.core=arduino:arduino
+DDBV8.menu.core.arduino.build.variant=tinyX4
+DDBV8.menu.core.arduino.build.board=AVR_ATTINYX4
+# use ATTinyCore from Spence Konde: https://github.com/SpenceKonde/ATTinyCore
+DDBV8.menu.core.tinycore=ATTinyCore (by Spence Konde)
+DDBV8.menu.core.tinycore.build.core=ATTinyCore:tinymodern
+DDBV8.menu.core.tinycore.build.variant=tinyX4
+DDBV8.menu.core.tinycore.build.board=AVR_ATTINYX4
 # info menu item
 DDBV8.menu.mgsg.info=Press Reset when Uploading is shown.
 DDBV8.vid.0=0x16D0
@@ -42,10 +48,15 @@ DDBV8.build.board=AVR_ATTINYX4
 # ATtiny84 @ internal 8MHz
 tiny84.name=DDB V7
 # use Standard Arduino Core
-tiny84.core.arduino=Standard Arduino
-tiny84.core.arduino.build.core=arduino:arduino
-tiny84.core.arduino.build.variant=tinyX4
-tiny84.core.arduino.build.board=AVR_ATTINYX4
+tiny84.menu.core.arduino=Standard Arduino
+tiny84.menu.core.arduino.build.core=arduino:arduino
+tiny84.menu.core.arduino.build.variant=tinyX4
+tiny84.menu.core.arduino.build.board=AVR_ATTINYX4
+# use ATTinyCore from Spence Konde: https://github.com/SpenceKonde/ATTinyCore
+tiny84.menu.core.tinycore=ATTinyCore (by Spence Konde)
+tiny84.menu.core.tinycore.build.core=ATTinyCore:tinymodern
+tiny84.menu.core.tinycore.build.variant=tinyX4
+tiny84.menu.core.tinycore.build.board=AVR_ATTINYX4
 # info menu item
 tiny84.menu.msg.info=Upload Using ISP.
 tiny84.bootloader.tool=avrdude
