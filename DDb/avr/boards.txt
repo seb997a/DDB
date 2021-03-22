@@ -2,6 +2,7 @@
 # http://www.linux-usb.org/usb.ids
 
 menu.speed=Speed
+menu.core=Core
 menu.baud=Upload Speed
 menu.msg=Info
 
@@ -12,6 +13,9 @@ DDBV8.menu.core.arduino=Standard Arduino
 DDBV8.menu.core.arduino.build.core=arduino:arduino
 DDBV8.menu.core.arduino.build.variant=tinyX4
 DDBV8.menu.core.arduino.build.board=AVR_ATTINYX4
+# use ATTinyCore from Spence Konde: https://github.com/SpenceKonde/ATTinyCore
+DDBV8.menu.core.tinycore=ATTinyCore (by Spence Konde)
+DDBV8.menu.core.tinycore.build.core=ATTinyCore:tinymodern
 DDBV8.menu.core.tinycore.build.variant=tinyX4
 DDBV8.menu.core.tinycore.build.board=AVR_ATTINYX4
 # info menu item
@@ -48,6 +52,9 @@ tiny84.menu.core.arduino=Standard Arduino
 tiny84.menu.core.arduino.build.core=arduino:arduino
 tiny84.menu.core.arduino.build.variant=tinyX4
 tiny84.menu.core.arduino.build.board=AVR_ATTINYX4
+# use ATTinyCore from Spence Konde: https://github.com/SpenceKonde/ATTinyCore
+tiny84.menu.core.tinycore=ATTinyCore (by Spence Konde)
+tiny84.menu.core.tinycore.build.core=ATTinyCore:tinymodern
 tiny84.menu.core.tinycore.build.variant=tinyX4
 tiny84.menu.core.tinycore.build.board=AVR_ATTINYX4
 # info menu item
