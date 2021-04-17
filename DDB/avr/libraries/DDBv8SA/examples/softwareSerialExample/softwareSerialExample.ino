@@ -20,6 +20,7 @@ void setup() {
 }
 
 void loop() {
+  onBoardLED(1);
   if (mySerial.available()) {
     mySerial.println("test");
     while (mySerial.available())
