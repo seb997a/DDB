@@ -11,9 +11,7 @@
 #include<DDBv8SA.h>
 #include <SoftwareSerial.h>
 
-volatile char message;
-
-SoftwareSerial mySerial(RXPIN, TXPIN); // RX, TX
+SoftwareSerial mySerial(RXPIN, TXPIN); //RX, TX
 
 void setup() {
   mySerial.begin(38400);
@@ -21,9 +19,9 @@ void setup() {
 
 void loop() {
   onBoardLED(1);
-  if (mySerial.available()) {
+  if (mySerial.available()) {          //Wait for something to be written.
     mySerial.println("test");
-    while (mySerial.available())
+    while (mySerial.available())       //Clear the buffer.
       mySerial.read();
   }
 }
